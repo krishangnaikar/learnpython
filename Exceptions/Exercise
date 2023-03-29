@@ -1,0 +1,22 @@
+In this lab, you will practice using the try and except statements to handle exceptions, and the raise statement to raise custom exceptions.
+
+Exercise 1: Handling Built-in Exceptions
+
+Write a function called divide_numbers that takes two arguments, x and y, and returns the result of dividing x by y. If y is equal to zero, raise a ZeroDivisionError with a custom error message.
+Write a function called open_file that takes one argument, filename, and opens the file with the given name for reading. If the file does not exist, raise a FileNotFoundError with a custom error message.
+
+Exercise 2: Raising Custom Exceptions
+
+Write a function called calculate_square_root that takes one argument, x, and returns the square root of x. If x is negative, raise a custom exception called NegativeNumberError with a custom error message.
+Write a function called find_key that takes two arguments, a dictionary d and a key k, and returns the value associated with the key. If the key does not exist, raise a custom exception called KeyNotFoundError with a custom error message.
+
+Exercise 3: Handling Custom Exceptions
+
+Write a program that asks the user to input a number between 1 and 10, and calculates the square root of that number. If the user inputs an invalid number (i.e. not between 1 and 10), handle the ValueError exception and print a custom error message. If the calculated square root is negative, handle the NegativeNumberError exception and print a custom error message.
+Write a program that asks the user to input a file name, and opens the file for reading. If the file does not exist, handle the FileNotFoundError exception and print a custom error message. If an exception occurs while reading the file (e.g. the file is not in the expected format), handle the exception and print a custom error message.
+
+Bonus Exercise: More Custom Exceptions
+
+Define a custom exception called InvalidDataTypeError that is raised when a function receives an argument of an invalid data type. For example, a function that expects a string should raise InvalidDataTypeError if it receives an integer.
+Modify the find_key function from Exercise 2 to raise InvalidDataTypeError if the d argument is not a dictionary, or if the k argument is not a valid key (i.e. not a string).
+
