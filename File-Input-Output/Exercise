@@ -1,36 +1,58 @@
-Part 1: Writing to a File
-Create a new Python file and save it as write_file.py.
-Open a new file in write mode called output.txt.
-Write the following text to the file:
+In this lab, you will learn how to read and write files in Python, including different methods for reading and writing data, handling errors, and working with different file formats.
 
+Part 1: Reading Files
+
+Create a new Python file called read_file.py
+Open a file called sample.txt in read mode using the open() function.
+Use the read() method to read the entire contents of the file and assign it to a variable called file_contents
+Print the contents of the file to the console
+Close the file using the close() method
+
+Part 2: Writing Files
+
+Create a new Python file called write_file.py
+Open a file called output.txt in write mode using the open() function.
+Use the write() method to write the following text to the file:
 This is some sample text.
 This is another line of text.
+Close the file using the close() method.
 
-Close the file.
-Run the write_file.py script to ensure that the file was created and the text was written to it correctly.
+Part 3: Appending to Files
 
-Part 2: Reading from a File
-Create a new Python file and save it as read_file.py.
-Open the output.txt file created in Part 1 in read mode.
-Use a loop to read each line of the file and print it to the console.
-Close the file.
-Run the read_file.py script to ensure that the file was opened and read correctly.
-Part 3: Appending to a File
-Open the output.txt file created in Part 1 in append mode.
-Append the following text to the end of the file
-
+Modify the write_file.py script to open the file in append mode using the open() function.
+Use the write() method to append the following text to the file:
 This is some more text.
+Close the file using the close() method.
 
-
-Close the file.
-Run the read_file.py script again to ensure that the new text was appended to the file correctly.
 Part 4: Handling Errors
+
 Modify the read_file.py script to handle the following errors:
 If the file cannot be opened, print an error message and exit the script.
 If an error occurs while reading the file, print an error message and continue to the next line.
-Test the error handling by intentionally causing an error (e.g., by renaming or deleting the output.txt file).
-Additional Challenges
-If you finish the above lab and want to continue practicing file input/output in Python, here are some additional challenges you can try:
-Create a program that reads a CSV file and prints its contents to the console in a formatted way.
-Write a program that prompts the user for input and saves it to a file.
-Modify the above lab to read and write to multiple files at once.
+Test the error handling by intentionally causing an error (e.g., by renaming or deleting the sample.txt file).
+
+Part 5: Working with Different File Formats
+
+Create a new Python file called csv_file.py
+Import the csv module
+Open a CSV file called data.csv using the open() function
+Use the csv.reader() function to read the contents of the file into a list of lists
+Print the contents of the file to the console
+Close the file using the close() method.
+
+Part 6: Parsing JSON Files
+
+Create a new Python file called json_file.py
+Import the json module
+Open a JSON file called data.json using the open() function
+Use the json.load() method to load the contents of the file into a dictionary
+Print the contents of the file to the console
+Close the file using the close() method.
+
+Part 7: Best Practices for Working with Files
+
+Use a context manager to ensure that files are closed properly after use.
+Use meaningful variable names to make your code more readable and maintainable.
+Use comments to explain your code and make it easier for others to understand.
+Handle errors appropriately to prevent your code from crashing or producing unexpected results.
+Follow best practices for file naming and organization to make your code more organized and easier to navigate.
