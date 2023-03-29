@@ -1,0 +1,36 @@
+Part 1: Writing to a File
+Create a new Python file and save it as write_file.py.
+Open a new file in write mode called output.txt.
+Write the following text to the file:
+
+This is some sample text.
+This is another line of text.
+
+Close the file.
+Run the write_file.py script to ensure that the file was created and the text was written to it correctly.
+
+Part 2: Reading from a File
+Create a new Python file and save it as read_file.py.
+Open the output.txt file created in Part 1 in read mode.
+Use a loop to read each line of the file and print it to the console.
+Close the file.
+Run the read_file.py script to ensure that the file was opened and read correctly.
+Part 3: Appending to a File
+Open the output.txt file created in Part 1 in append mode.
+Append the following text to the end of the file
+
+This is some more text.
+
+
+Close the file.
+Run the read_file.py script again to ensure that the new text was appended to the file correctly.
+Part 4: Handling Errors
+Modify the read_file.py script to handle the following errors:
+If the file cannot be opened, print an error message and exit the script.
+If an error occurs while reading the file, print an error message and continue to the next line.
+Test the error handling by intentionally causing an error (e.g., by renaming or deleting the output.txt file).
+Additional Challenges
+If you finish the above lab and want to continue practicing file input/output in Python, here are some additional challenges you can try:
+Create a program that reads a CSV file and prints its contents to the console in a formatted way.
+Write a program that prompts the user for input and saves it to a file.
+Modify the above lab to read and write to multiple files at once.
