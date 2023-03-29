@@ -10,3 +10,12 @@ Create a subclass of the "Person" class called "Student" that has an additional 
 Create an object of the "Student" class and call both the "introduce" and "display_grade" methods.
 Create another subclass of the "Person" class called "Teacher" that has an additional attribute called "subject". The "Teacher" class should also have a method called "teach" that prints out a message saying what subject the teacher is teaching.
 Create an object of the "Teacher" class and call both the "introduce" and "teach" methods.
+
+
+Expected Output:
+
+My name is John and I am 25 years old.
+My name is Jane and I am 18 years old.
+My grade is A.
+My name is Mr. Smith and I am 35 years old.
+I am teaching Math.
