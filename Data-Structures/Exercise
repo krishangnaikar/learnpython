@@ -1,0 +1,35 @@
+Objective:
+To practice working with common data structures in Python, including lists, tuples, dictionaries, and sets. Also, to practice creating and using functions to manipulate these data structures.
+Instructions:
+Create a new Python file called data_structures_lab.py.
+Create the following variables:
+A list of integers called my_list with at least 5 elements.
+A tuple of strings called my_tuple with at least 3 elements.
+A dictionary called my_dict with at least 3 key-value pairs.
+A set of floats called my_set with at least 3 elements.
+Define the following functions:
+find_max(list): Returns the maximum value in a given list.
+remove_duplicates(list): Removes duplicate elements from a given list and returns a new list with unique elements.
+reverse_tuple(tuple): Reverses the order of elements in a given tuple and returns a new tuple.
+dict_to_list(dict): Converts a dictionary to a list of tuples where each tuple contains a key-value pair.
+set_intersection(set1, set2): Returns a new set containing the elements that are present in both set1 and set2.
+Test your functions by calling them on your data structures and printing the results.
+Example Output:
+
+my_list = [1, 2, 3, 4, 5]
+my_tuple = ("apple", "banana", "cherry")
+my_dict = {"key1": "value1", "key2": "value2", "key3": "value3"}
+my_set = {1.0, 2.0, 3.0}
+
+print(find_max(my_list)) # Output: 5
+print(remove_duplicates(my_list)) # Output: [1, 2, 3, 4, 5]
+print(reverse_tuple(my_tuple)) # Output: ("cherry", "banana", "apple")
+print(dict_to_list(my_dict)) # Output: [("key1", "value1"), ("key2", "value2"), ("key3", "value3")]
+print(set_intersection(my_set, {2.0, 3.0, 4.0})) # Output: {2.0, 3.0}
+
+Additional Requirements:
+Use comments to explain your code and functions.
+Use meaningful variable names.
+Use type annotations for function arguments and return values.
+Include a docstring for each function.
+
