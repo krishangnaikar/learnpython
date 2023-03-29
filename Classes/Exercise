@@ -1,0 +1,12 @@
+Introduction:
+
+In this lab, you will learn how to create classes, objects, and use inheritance in Python. You will also learn how to define methods and attributes in classes, as well as how to create subclasses and use inheritance to reuse code.
+
+Instructions:
+
+Create a class called "Person" that has the attributes "name" and "age". The class should also have a method called "introduce" that prints out the name and age of the person.
+Create an object of the "Person" class and call the "introduce" method.
+Create a subclass of the "Person" class called "Student" that has an additional attribute called "grade". The "Student" class should also have a method called "display_grade" that prints out the grade of the student.
+Create an object of the "Student" class and call both the "introduce" and "display_grade" methods.
+Create another subclass of the "Person" class called "Teacher" that has an additional attribute called "subject". The "Teacher" class should also have a method called "teach" that prints out a message saying what subject the teacher is teaching.
+Create an object of the "Teacher" class and call both the "introduce" and "teach" methods.
