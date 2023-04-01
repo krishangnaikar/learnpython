@@ -1,0 +1,35 @@
+Functions in Python are reusable pieces of code that perform a specific task. Here are some common functions related to the data structures we discussed:
+List functions
+len(list): returns the length of the list.
+list.append(element): adds the element to the end of the list.
+list.insert(index, element): inserts the element at the specified index.
+list.pop(index): removes and returns the element at the specified index.
+list.sort(): sorts the elements in the list.
+Tuple functions
+Tuples are immutable, so there are fewer built-in functions for tuples.
+len(tuple): returns the length of the tuple.
+tuple.count(value): returns the number of occurrences of value in the tuple.
+tuple.index(value): returns the index of the first occurrence of value in the tuple.
+Dictionary functions
+len(dict): returns the number of key-value pairs in the dictionary.
+dict.keys(): returns a list of all the keys in the dictionary.
+dict.values(): returns a list of all the values in the dictionary.
+dict.items(): returns a list of all the key-value pairs in the dictionary as tuples.
+Set functions
+len(set): returns the number of elements in the set.
+set.add(element): adds the element to the set.
+set.remove(element): removes the element from the set.
+set.union(other_set): returns a new set that contains all the elements from both sets.
+set.intersection(other_set): returns a new set that contains the elements that are in both sets.
+User-defined functions
+User-defined functions can be created to perform specific tasks on any data structure.
+For example, a function that takes a list as an argument and returns the sum of all the elements in the list could be defined as follows:
+
+def sum_list(list):
+    total = 0
+    for element in list:
+        total += element
+    return total
+
+
+Overall, understanding these built-in functions and being able to define your own functions to operate on data structures is an important aspect of Python programming.
